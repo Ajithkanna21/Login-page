@@ -1,0 +1,10 @@
+.sidebar{
+    height: 100%;
+    width: 20%;
+    padding: 0 30px;
+    background-color: cornflowerblue;
+}
+h2{
+    padding: 10px;
+    color: white;
+}

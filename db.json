@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "id": "1daf",
+      "username": "ajith",
+      "password": "123",
+      "email": "aaddad@gmail",
+      "number": 12312321313
+    },
+    {
+      "id": "e0a7",
+      "username": "Ajay",
+      "password": "123",
+      "email": "aaddad@gmail",
+      "number": 99999
+    },
+    {
+      "id": "299a",
+      "username": "amal",
+      "password": "123",
+      "email": "ngignign@gmaoj",
+      "number": 8989892892
+    },
+    {
+      "id": "1987",
+      "username": [],
+      "password": []
+    },
+    {
+      "id": "11ad",
+      "username": [],
+      "password": []
+    }
+  ]
+}

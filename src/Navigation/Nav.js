@@ -16,14 +16,14 @@ const Nav = () => {
       <Avatar
         className='avatar'
         style={{
-          backgroundColor: 'orange',
+          backgroundColor: 'lightgreen',
           verticalAlign: 'middle',
         }}
         size="large"
         gap={gap}
         onClick={() => { setPop(!pop) }}
       >
-        {username[0]}
+        {username[0].toUpperCase()}
       </Avatar>
       {/* ------------------------------------Popup condition------------------------------------ */}
       {pop === true ? (

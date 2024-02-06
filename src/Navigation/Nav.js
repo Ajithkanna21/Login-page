@@ -2,18 +2,14 @@ import React, { useContext, useState } from 'react';
 import './Nav.css';
 import { Avatar, Button } from 'antd';
 import { PoweroffOutlined, UserOutlined } from '@ant-design/icons';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { AppContext } from '../App';
 
 const Nav = () => {
-  // const loot = useLocation()
-  // const {email,no} = loot.state
-  const { username,email,no} = useContext(AppContext);
+  const { username, email , no } = useContext(AppContext);
   const [gap, setGap] = useState(false);
   const [pop, setPop] = useState(false); // created use state for popup
-
   return (
-
     <div className='nav'>
       <h4 className='user'>{username}</h4>
       {/* ------------------------------------Avatar------------------------------------ */}
@@ -26,8 +22,8 @@ const Nav = () => {
         size="large"
         gap={gap}
         onClick={() => { setPop(!pop) }}
-        >
-        {username}
+      >
+        {username[0]}
       </Avatar>
       {/* ------------------------------------Popup condition------------------------------------ */}
       {pop === true ? (
@@ -41,11 +37,10 @@ const Nav = () => {
             </div>
           ) : ("")}
           <Link to="/">
-            <Button type="" icon={<PoweroffOutlined />}>logout</Button>
+            <Button type="" icon={<PoweroffOutlined /> }>logout</Button>
           </Link>
         </div>
-      ) : (null)
-      }
+      ) : (null)}
     </div>
   );
 };

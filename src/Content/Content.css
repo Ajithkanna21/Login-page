@@ -43,8 +43,11 @@
     color: lime;
 }
 .c{
-    padding: 5px;
-    color: black; 
-    background-color: rgba(144, 238, 144, 0.523);
-    justify-content: space-around;
+    background-color: rgba(144, 238, 144, 0.429);
+}
+.Il{
+    background-color: rgba(128, 128, 128, 0.103);
+}
+.Hd{
+    color: rgba(255, 0, 0, 0.618);
 }
